@@ -281,14 +281,28 @@ CLR_WHITE      = "#F0F0F0"   # Primary text
 
 ### Installation
 
+#### Getting Started (Recommended)
+
+**Windows Users:**
+1. Navigate to the `scripts/` folder.
+2. Double-click `airdash_windows.bat`.
+3. An interactive menu will open. Type `1` to install dependencies, then `2` to run the app.
+
+**macOS / Linux Users:**
+1. Open terminal and navigate to the `scripts/` folder in the project.
+2. Make the script executable: `chmod +x airdash_unix.sh`
+3. Run the script: `./airdash_unix.sh`
+4. Choose `1` to install dependencies, then `2` to run the app.
+
+#### Manual Installation
 ```bash
 # 1. Clone the repository
 git clone https://github.com/dhruvbhaskar07/AirDash-Gesture-Control.git
 cd AirDash-Gesture-Control
 
-# 2. (Recommended) Create a virtual environment
-python -m venv .venv
-.venv\Scripts\activate
+# 2. Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt

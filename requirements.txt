@@ -1,0 +1,9 @@
+mediapipe
+opencv-python
+PySide6
+Pillow
+pyautogui
+keyboard
+numpy
+pygrabber
+comtypes

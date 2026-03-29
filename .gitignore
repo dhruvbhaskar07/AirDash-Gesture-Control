@@ -1,0 +1,25 @@
+# Environments
+venv/
+env/
+powerhouse/
+.env
+
+# __pycache__
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+.qodo/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & Temp files
+*.log
+*_err.txt
+*_out.txt
+.pytest_cache/

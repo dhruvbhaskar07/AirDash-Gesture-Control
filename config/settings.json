@@ -1,0 +1,48 @@
+{
+  "visuals": {
+    "show_feed": true,
+    "theme": "Dr. Strange"
+  },
+  "mappings": [
+    {
+      "id": "default-pinch",
+      "gesture": "Pinch",
+      "action_type": "shortcut",
+      "keys": [
+        "win",
+        "d"
+      ],
+      "description": "Show Desktop"
+    },
+    {
+      "id": "default-swipe-left",
+      "gesture": "Swipe_Left",
+      "action_type": "shortcut",
+      "keys": [
+        "previous track"
+      ],
+      "description": "Previous Track"
+    },
+    {
+      "id": "default-swipe-right",
+      "gesture": "Swipe_Right",
+      "action_type": "shortcut",
+      "keys": [
+        "next track"
+      ],
+      "description": "Next Track"
+    },
+    {
+      "id": "default-peace",
+      "gesture": "Peace",
+      "action_type": "shortcut",
+      "keys": [
+        "play/pause media"
+      ],
+      "description": "Play/Pause Media"
+    }
+  ],
+  "camera": {
+    "preferred_index": 0
+  }
+}

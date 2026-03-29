@@ -1,5 +1,7 @@
 <div align="center">
 
+![AirDash Hero Banner](assets/hero_banner.png)
+
 # ✋ AirDash
 
 ### Hand Gesture Control System for Windows

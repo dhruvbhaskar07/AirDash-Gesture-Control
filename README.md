@@ -13,7 +13,6 @@
 [![MediaPipe](https://img.shields.io/badge/AI-MediaPipe-orange?style=flat-square&logo=google&logoColor=white)](https://mediapipe.dev/)
 [![OpenCV](https://img.shields.io/badge/Vision-OpenCV-red?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
 [![Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)](LICENSE)
 
 ---
 
@@ -284,8 +283,8 @@ CLR_WHITE      = "#F0F0F0"   # Primary text
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/airdash.git
-cd airdash
+git clone https://github.com/dhruvbhaskar07/AirDash-Gesture-Control.git
+cd AirDash-Gesture-Control
 
 # 2. (Recommended) Create a virtual environment
 python -m venv .venv
@@ -405,17 +404,16 @@ To add a new action type:
 1. Add it to `ACTION_TYPES` in `ui/constants.py`
 2. Handle the type in `ActionMapper.execute_action()` in `core/action_mapper.py`
 
----
+## 👨‍💻 Developed By
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+**Dhruv Bhaskar**  
+*Lead Developer & Vision Architect*
 
 ---
 
 <div align="center">
 
-Made with ✋ and Python
+Made with AI by **Dhruv Bhaskar**
 
 *AirDash — Because keyboards are so last century.*
 

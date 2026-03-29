@@ -6,31 +6,6 @@
 
 ### Hand Gesture Control System for Windows
 
----
-
-## 📸 Interface Gallery
-
-````carousel
-![Dashboard](assets/dashboard_overview.png)
-Dashboard & Live Hand Tracking Status
-<!-- slide -->
-![Command Center](assets/command_center.png)
-Active Gesture Mappings & Shortcut Actions
-<!-- slide -->
-![Custom Gesture Builder](assets/custom_gesture_builder.png)
-Creating personalized gestures for any application
-<!-- slide -->
-![Camera Settings](assets/settings_fps.png)
-Dynamic FPS & Render Mode configuration
-<!-- slide -->
-![Hand Setup](assets/hand_setup.png)
-Visual configuration for gesture recording
-<!-- slide -->
-![Gesture Rules](assets/gesture_rules.png)
-Fine-grained finger state & motion definitions
-````
-
-
 *Control your entire computer with nothing but your hand — no touch, no clicks, just motion.*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
@@ -48,6 +23,8 @@ Fine-grained finger state & motion definitions
 **AirDash** is a real-time, camera-based hand gesture control system for Windows. It uses your webcam and Google's MediaPipe AI to track your hand landmarks at up to 120 FPS, recognizes 10+ distinct gestures, and instantly maps them to keyboard shortcuts, mouse actions, or application launches — all without touching your keyboard or mouse.
 
 Think of it as Iron Man's gesture suite, built for your desktop.
+
+![AirDash Dashboard](assets/dashboard_overview.png)
 
 ---
 
@@ -95,6 +72,8 @@ Think of it as Iron Man's gesture suite, built for your desktop.
 | Swipe Left | Previous Track |
 | Swipe Right | Next Track |
 | Peace | Play / Pause Media |
+
+![Command Center](assets/command_center.png)
 
 ---
 
@@ -234,6 +213,18 @@ Translates confirmed gestures into system-level OS actions and manages persisten
 
 ---
 
+<table>
+<tr>
+<td width="50%"><img src="assets/custom_gesture_builder.png" alt="Custom Gesture Builder"/><br/><em>Custom Gesture Builder — design any pose</em></td>
+<td width="50%"><img src="assets/gesture_rules.png" alt="Gesture Rules"/><br/><em>Per-finger state rules editor</em></td>
+</tr>
+<tr>
+<td colspan="2"><img src="assets/hand_setup.png" alt="Hand Setup"/><br/><em>Live hand preview during gesture capture</em></td>
+</tr>
+</table>
+
+---
+
 ### `ui/main_window.py` — The Interface Layer
 
 A 1549-line PySide6 application window with a clean sidebar + command center layout.
@@ -318,6 +309,10 @@ CLR_WHITE      = "#F0F0F0"   # Primary text
 2. Make the script executable: `chmod +x airdash_unix.sh`
 3. Run the script: `./airdash_unix.sh`
 4. Choose `1` to install dependencies, then `2` to run the app.
+
+> **Camera & FPS Settings** — configure your webcam, max FPS, and render mode from the sidebar.
+>
+> ![Camera & FPS Settings](assets/settings_fps.png)
 
 #### Manual Installation
 ```bash

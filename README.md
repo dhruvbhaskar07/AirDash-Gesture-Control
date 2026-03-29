@@ -6,6 +6,31 @@
 
 ### Hand Gesture Control System for Windows
 
+---
+
+## 📸 Interface Gallery
+
+````carousel
+![Dashboard](assets/dashboard_overview.png)
+Dashboard & Live Hand Tracking Status
+<!-- slide -->
+![Command Center](assets/command_center.png)
+Active Gesture Mappings & Shortcut Actions
+<!-- slide -->
+![Custom Gesture Builder](assets/custom_gesture_builder.png)
+Creating personalized gestures for any application
+<!-- slide -->
+![Camera Settings](assets/settings_fps.png)
+Dynamic FPS & Render Mode configuration
+<!-- slide -->
+![Hand Setup](assets/hand_setup.png)
+Visual configuration for gesture recording
+<!-- slide -->
+![Gesture Rules](assets/gesture_rules.png)
+Fine-grained finger state & motion definitions
+````
+
+
 *Control your entire computer with nothing but your hand — no touch, no clicks, just motion.*
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
